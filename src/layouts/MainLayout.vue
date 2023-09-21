@@ -26,7 +26,7 @@
       </div>
 
       <!-- <q-img
-        src="/src/statics/header.jpg"
+        src="public/header.jpg"
         class="header-image absolute-top"
         /> -->
 
@@ -62,21 +62,37 @@
               </q-item-section>
             </q-item>
 
-            <!-- Guide -->
+            <!-- About -->
             <q-item
-              to="guide"
+              to="about"
               exact
               clickable
               v-ripple>
               <!-- Icon -->
               <q-item-section avatar>
-                <q-icon name="flag" />
+                <q-icon name="info" />
               </q-item-section>
               <!-- Text -->
               <q-item-section>
-                Guide
+                About
               </q-item-section>
             </q-item>
+
+              <!-- Guide -->
+              <!-- <q-item
+              to="guide"
+              exact
+              clickable
+              v-ripple>
+
+              <q-item-section avatar>
+                <q-icon name="flag" />
+              </q-item-section>
+
+              <q-item-section>
+                Guide
+              </q-item-section>
+            </q-item> -->
 
             <!-- <q-item active clickable v-ripple>
               <q-item-section avatar>
@@ -87,17 +103,18 @@
                 Star
               </q-item-section>
             </q-item> -->
+
           </q-list>
         </q-scroll-area>
 
         <!-- <q-img
           class="absolute-top"
-          src="src/statics/a-header.jpg"
+          src="public/a-header.jpg"
           style="height: 192px" >
           <div class="absolute-bottom bg-transparent">
 
             <q-avatar size="56px" class="q-mb-sm">
-              <img src="src/statics/avatar.jpg">
+              <img src="public/avatar.jpg">
             </q-avatar>
 
             <div class="text-weight-bold">Ayden Deng</div>
