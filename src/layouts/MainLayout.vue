@@ -25,10 +25,10 @@
         </div>
       </div>
 
-      <q-img
+      <!-- <q-img
         src="/src/statics/header.jpg"
         class="header-image absolute-top"
-        />
+        /> -->
 
     </q-header>
 
@@ -38,10 +38,12 @@
         show-if-above
         :width="250"
         :breakpoint="600"
-        class="column" :style="{ backgroundColor: '#F9F4EB' }"
+        class="column"
+        :style="{ backgroundColor: '#39241A' }"
         elevated
       >
-        <q-scroll-area style="height: calc(100% - 192px); margin-top: 192px; border-right: 1px solid #F9F4EB">
+        <q-scroll-area class="bg-accent" style="height: calc(100% - 48px); margin-top: 48px; border-right: 1px solid #F9F4EB" >
+        <!-- <q-scroll-area class="fit"> -->
           <q-list padding>
 
             <!-- Homepage: YaruKoto -->
@@ -88,22 +90,20 @@
           </q-list>
         </q-scroll-area>
 
-        <q-img
+        <!-- <q-img
           class="absolute-top"
           src="src/statics/a-header.jpg"
           style="height: 192px" >
           <div class="absolute-bottom bg-transparent">
 
-            <!-- Avatar -->
             <q-avatar size="56px" class="q-mb-sm">
               <img src="src/statics/avatar.jpg">
             </q-avatar>
 
-            <!-- User Name -->
             <div class="text-weight-bold">Ayden Deng</div>
             <div>@imayden_com</div>
           </div>
-        </q-img>
+        </q-img> -->
       </q-drawer>
 
     <q-page-container>
@@ -200,4 +200,5 @@ export default defineComponent({
     opacity:0.10;
     filter: grayscale(100%);
   }
+
 </style>
