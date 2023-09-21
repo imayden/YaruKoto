@@ -17,7 +17,7 @@ quasar dev
 
 ### Build the app for production
 ```bash
-quasar build
+quasar build -m electron
 ```
 
 ### Customize the configuration
