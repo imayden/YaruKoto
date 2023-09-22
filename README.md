@@ -1,5 +1,7 @@
 # YaruKoto (yarukoto)
 
+by Ayden Deng
+
 A to-do list app
 
 ## Install the dependencies
