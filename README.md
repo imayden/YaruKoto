@@ -1,8 +1,7 @@
 # YaruKoto (yarukoto)
 
 by Ayden Deng
-
-A to-do list app
+A cross-platform to-do list app
 
 ## Install the dependencies
 ```bash
@@ -13,7 +12,7 @@ npm install
 
 ### Start the app in development mode (hot-code reloading, error reporting, etc.)
 ```bash
-quasar dev
+quasar dev 
 ```
 
 
